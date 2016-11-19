@@ -1,4 +1,4 @@
-package integration
+package api
 
 import org.junit.Before
 import ratpack.test.embed.EmbeddedApp
@@ -6,7 +6,7 @@ import ratpack.test.http.TestHttpClient
 import web.App
 import web.RatpackModule
 
-class IntegrationTestBase {
+class ApiTestBase {
 
     TestHttpClient client
 

@@ -1,13 +1,13 @@
-package integration.calculator
+package api.calculator
 
-import integration.IntegrationTestBase
+import api.ApiTestBase
 import org.junit.Test
 
 import static framework.IsDeeplyEqualToMatcher.isDeeplyEqualTo
 import static org.hamcrest.MatcherAssert.assertThat
 import static org.hamcrest.core.IsEqual.equalTo
 
-class CalculatorApiTests extends IntegrationTestBase {
+class CalculatorApiTests extends ApiTestBase {
 
     @Test
     public void canAddTwoNumbers() throws Exception {
