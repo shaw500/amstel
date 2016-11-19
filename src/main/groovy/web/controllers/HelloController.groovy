@@ -12,7 +12,6 @@ class HelloController extends ControllerBase {
         ctx.render "Hello $name!"
     }
 
-    @Override
     String idField() {
         'name'
     }
