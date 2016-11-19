@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.ratpack:ratpack-gradle:1.4.4"
+    }
+}
+
+apply plugin: "io.ratpack.ratpack-groovy"
+apply plugin: "idea"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'io.ratpack:ratpack-groovy:1.4.4'
+    compile 'ch.qos.logback:logback-classic:1.1.7'
+
+}
